@@ -13,9 +13,6 @@
 		8170AE502ABA094700866092 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8170AE4E2ABA094700866092 /* Main.storyboard */; };
 		8170AE522ABA094700866092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8170AE512ABA094700866092 /* Assets.xcassets */; };
 		8170AE552ABA094700866092 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8170AE532ABA094700866092 /* LaunchScreen.storyboard */; };
-		8170AE602ABA094800866092 /* sem3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170AE5F2ABA094800866092 /* sem3Tests.swift */; };
-		8170AE6A2ABA094800866092 /* sem3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170AE692ABA094800866092 /* sem3UITests.swift */; };
-		8170AE6C2ABA094800866092 /* sem3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170AE6B2ABA094800866092 /* sem3UITestsLaunchTests.swift */; };
 		8170AE792ABA09B400866092 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8170AE782ABA09B400866092 /* CustomButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,10 +43,7 @@
 		8170AE542ABA094700866092 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8170AE562ABA094700866092 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8170AE5B2ABA094800866092 /* sem3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sem3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8170AE5F2ABA094800866092 /* sem3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sem3Tests.swift; sourceTree = "<group>"; };
 		8170AE652ABA094800866092 /* sem3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sem3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8170AE692ABA094800866092 /* sem3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sem3UITests.swift; sourceTree = "<group>"; };
-		8170AE6B2ABA094800866092 /* sem3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sem3UITestsLaunchTests.swift; sourceTree = "<group>"; };
 		8170AE782ABA09B400866092 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				8170AE472ABA094700866092 /* sem3 */,
-				8170AE5E2ABA094800866092 /* sem3Tests */,
-				8170AE682ABA094800866092 /* sem3UITests */,
 				8170AE462ABA094700866092 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -111,23 +103,6 @@
 				8170AE562ABA094700866092 /* Info.plist */,
 			);
 			path = sem3;
-			sourceTree = "<group>";
-		};
-		8170AE5E2ABA094800866092 /* sem3Tests */ = {
-			isa = PBXGroup;
-			children = (
-				8170AE5F2ABA094800866092 /* sem3Tests.swift */,
-			);
-			path = sem3Tests;
-			sourceTree = "<group>";
-		};
-		8170AE682ABA094800866092 /* sem3UITests */ = {
-			isa = PBXGroup;
-			children = (
-				8170AE692ABA094800866092 /* sem3UITests.swift */,
-				8170AE6B2ABA094800866092 /* sem3UITestsLaunchTests.swift */,
-			);
-			path = sem3UITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -209,7 +184,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 8170AE402ABA094700866092 /* Build configuration list for PBXProject "sem3" */;
+			buildConfigurationList = 8170AE402ABA094700866092 /* Build configuration list for PBXProject "sem_3" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -272,7 +247,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8170AE602ABA094800866092 /* sem3Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +254,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8170AE6C2ABA094800866092 /* sem3UITestsLaunchTests.swift in Sources */,
-				8170AE6A2ABA094800866092 /* sem3UITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,7 +535,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8170AE402ABA094700866092 /* Build configuration list for PBXProject "sem3" */ = {
+		8170AE402ABA094700866092 /* Build configuration list for PBXProject "sem_3" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8170AE6D2ABA094800866092 /* Debug */,

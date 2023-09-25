@@ -33,7 +33,7 @@ class CustomButton : UIButton {
             if self.backgroundColor == .blue {
                 self.backgroundColor = .systemPink
             } else {
-                self.backgroundColor = .systemPink
+                self.backgroundColor = .blue
             }
         }) {_ in
             UIView.animate(withDuration: 2,
@@ -45,7 +45,7 @@ class CustomButton : UIButton {
                 if self.backgroundColor == .blue {
                     self.backgroundColor = .systemPink
                 } else {
-                    self.backgroundColor = .systemPink
+                    self.backgroundColor = .blue 
                 }
             })
                 
